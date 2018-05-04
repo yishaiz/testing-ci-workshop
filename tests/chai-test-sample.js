@@ -7,5 +7,6 @@ describe("smoke test - chai", function () {
     it("checks equality", function () {
         // assert.equal(true, true);
         expect (true).to.be.true;
+        // expect (true).to.be.false   ;
     });
 });
