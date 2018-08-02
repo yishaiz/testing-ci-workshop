@@ -1,5 +1,5 @@
 {
-  "name": "testing-async-code",
+  "name": "testing-ci-workshop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,11 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "mocha": "^5.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
+    "mocha": "^5.2.0",
     "sinon": "^4.5.0"
   }
 }
