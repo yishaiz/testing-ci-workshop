@@ -4,7 +4,7 @@ const expect = chai.expect;
 const sinon = require("sinon");
 const indexPage = require("../../controllers/app.controller.js");
 
-xdescribe("getIndexPage", function () {
+ describe("getIndexPage", function () {
     it("should return index page", function () {
         let req = {}
         // Have `res` have a send key with a function value coz we use `res.send()` in our func
@@ -20,7 +20,7 @@ xdescribe("getIndexPage", function () {
     });
 });
 
-xdescribe("getIndexPage", function () {
+ describe("getIndexPage", function () {
     it("should send hey", function () {
         let req = {}
         // Have `res` have a send key with a function value coz we use `res.send()` in our func
